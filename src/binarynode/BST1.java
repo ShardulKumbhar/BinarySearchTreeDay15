@@ -1,17 +1,17 @@
 package binarynode;
 
-public class BST extends INode {
+public class BST1 extends INode1 {
 	/**
 	 * 
-	 * 1.Creating new node if there is no Binary Tree exists 
+	 * 1. Creating node to insert new subnodes to binary tree
 	 * 2. Method for printing the Binary Tree
 	 * 
 	 * @param k-data to be inserted
 	 * @return
 	 */
 
-	public INode createNewNode(int k) {
-		INode a = new INode();
+	public INode1 createNewNode(int k) {
+		INode1 a = new INode1();
 		a.data = k;
 		a.left = null;
 		a.right = null;
@@ -19,9 +19,9 @@ public class BST extends INode {
 	}
 
 	/*
-	 * 1. Creating new node if there is no Binary Tree exists
+	 * 1. Creating node to insert new subnodes to binary tree
 	 */
-	public INode insert(INode node, int k) {
+	public INode1 insert(INode1 node, int k) {
 		if (node == null) {
 			return createNewNode(k);
 		}
@@ -37,7 +37,7 @@ public class BST extends INode {
 	/*
 	 * 2. Method for printing the Binary Tree
 	 */
-	public void printBST(INode node) {
+	public void printBST(INode1 node) {
 		if (node == null) {
 			return;
 		}
