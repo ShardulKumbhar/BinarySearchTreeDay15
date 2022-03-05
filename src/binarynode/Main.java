@@ -2,23 +2,27 @@ package binarynode;
 public class Main {
 
 	/**
-	 * 
-	 * @param args 
-	 *  Procedure:- 
-	 * ===============================================================
-	 *   Create a Binary Search Tree by adding 56 and then adding 30 & 70.
+	 *  Create a Binary Search Tree by adding 56 and then adding 30 & 70.
+	 * ====================================================================
 	 *1. Creating object to access the function of function class 
+	 *2. Creating root node as null
 	 *2. Adding the sub-nodes of Binary Tree 
 	 *3. Printing the elements
-	 *=================================================================
+	 *======================================================================
+	 * @param args 
+	 *  Procedure:- 
+	 * 
 	 */
 	
 	public static void main(String[] args) {
-
+		
 		/*
 		 * 1. Creating an object of function class
 		 */
 		BST link = new BST();
+		/*
+		 * 2.creating root node as null
+		 */
 		INode root = null;
 
 		/*
