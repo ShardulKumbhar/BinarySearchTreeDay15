@@ -60,6 +60,10 @@ public class Main1 {
 		 */
 		int x = size.size(root);		
 		System.out.println("\nSize of Tree: "+x);
+		/*
+		 * 6. Searching for given key value whether it is present or not
+		 */
+		link.search(root, 66);
 
 	}
 

@@ -1,7 +1,7 @@
 package binarynode;
 
 public class INode1 {
-
+	
 	/*
 	 * 1. Declaring the variables that are used as left node,right node,root node
 	 * and data;
