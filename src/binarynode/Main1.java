@@ -63,7 +63,7 @@ public class Main1 {
 		/*
 		 * 6. Searching for given key value whether it is present or not
 		 */
-		link.search(root, 66);
+		link.search(root, 67);
 
 	}
 
